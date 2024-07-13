@@ -7,11 +7,20 @@ In this course we will learn how to utilize AWS services such as ``Amazon S3, AW
 
 Amazon Web Services (AWS) is a cloud computing platform by Amazon. It is one of the widely adopted cloud platform.  It provides a a broad set of on-demand services including machine learning. In this course we will also focus on aws machine learning related services. 
 
-In this course, we will be using `Python Programming Language`, and thus we will use `Boto3`, which is the AWS Software Developmemt Kit (SDK) for python. Boto3 allows Python develper to use AWS services. To install `boto3` run the following scripts:
+
+
+
+## Prerequisite (NOT INCLUDED IN THE TURTORIAL)
+
+
+In this course, we will be using `Python Programming Language`, and thus we will use `Boto3`, which is the AWS Software Developmemt Kit (SDK) for python. Boto3 allows Python develper to use AWS services. 
+
+> SDK is a collection of software tools, libraries, documentation, code samples, and other resources that developers use to create applications for specific platforms or environments.
+
+
+To install `boto3` run the following scripts:
 ```bash
 pip install boto3
 ```
-
-(more detail in the following paragraphs)
-
-## Before starting the course (NOT INCLUDED IN THE TURTORIAL)
+If you are not familiar with boto3, and using services using ``boto3``, you can look at basic turtorial for boto3 services (`s3`,`rekognition`,...) in this folder
+[boto3_turtorial/](boto3_turtorial/)
