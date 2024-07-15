@@ -10,12 +10,12 @@ Amazon Web Services (AWS) is a cloud computing platform by Amazon. It is one of 
 
 
 
-## Prerequisite (NOT INCLUDED IN THE TURTORIAL)
+## AWS ML Services and Clients(NOT INCLUDED IN THE TURTORIAL)
 
+Before starting this course it is better to have knowledge of how to use `AWS ML Services`. In order to utilize `AWS Services`, we will use `Boto3`, which is the AWS Software Development Kit (SDK) for Python. Boto3 allows Python developers to use AWS services. The `SDK` is a collection of software tools, libraries, documentation, code samples, and other resources that developers use to create applications for specific platforms or environments.
 
-In this course, we will be using `Python Programming Language`, and thus we will use `Boto3`, which is the AWS Software Developmemt Kit (SDK) for python. Boto3 allows Python develper to use AWS services. 
+Using `Boto3`, we can initiate `clients` for different ML services such as `Rekognition`. A `client` here is an instance of an AWS service which can initiate different methods like `detect_labels()` (a Rekognition client method) which can be used similarly to APIs.
 
-> SDK is a collection of software tools, libraries, documentation, code samples, and other resources that developers use to create applications for specific platforms or environments.
 
 
 To install `boto3` run the following scripts:
@@ -23,4 +23,5 @@ To install `boto3` run the following scripts:
 pip install boto3
 ```
 If you are not familiar with boto3, and using services using ``boto3``, you can look at basic turtorial for boto3 services (`s3`,`rekognition`,...) in this folder
-[boto3_turtorial/](boto3_turtorial/)
+[aws_services_basic_turtorial/](aws_services_basic_turtorial/)
+
